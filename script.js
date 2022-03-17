@@ -56,6 +56,7 @@ class Calculator {
         this.previousOperand = ''
     }
 
+    // comma delimited numbers
     getDisplayNumber(number) {
         const stringNumber = number.toString()
         const integerDigits = parseFloat(stringNumber.split('.')[0])
